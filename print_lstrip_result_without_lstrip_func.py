@@ -5,4 +5,6 @@ def remove_space(s):
         counter += 1
     return s[counter:]
 #enter "  hello world"
+result = input("Enter name: ")
+print ("Result:", remove_space(result))
 #print "hello world" without using lstrip() function
