@@ -4,6 +4,7 @@ def lower_caser(text):
     lowercase = "abcdefghijklmnopqrstuvwxyz"
     translated_text = str.maketrans(uppercase, lowercase)
     return text.translate(translated_text)
-
 #enter "ACCESS DENIED"
+text = input("Enter text: ")
 #print "access denied" without using lower() function
+print(lower_caser(text))
