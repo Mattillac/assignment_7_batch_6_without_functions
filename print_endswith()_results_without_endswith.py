@@ -3,6 +3,7 @@ def ends_with(string, suffix):
     if len(string) < len(suffix):
         return False
     return string[-len(suffix):] == suffix
-#enter "Hello World"
 
+text = input("Type: ")
+text_secondary = input("Enter suffix: ")
 #print "True" if the string ends with "World"
