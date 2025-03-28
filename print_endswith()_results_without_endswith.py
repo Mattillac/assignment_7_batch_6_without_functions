@@ -4,4 +4,5 @@ def ends_with(string, suffix):
         return False
     return string[-len(suffix):] == suffix
 #enter "Hello World"
+
 #print "True" if the string ends with "World"
